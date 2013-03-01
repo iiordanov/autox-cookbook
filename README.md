@@ -12,7 +12,9 @@ There is nothing to customize at the moment, however, there are a few prerequisi
 
 1) The following directive must be present in your /etc/sudoers config file:
 
-\#includedir /etc/sudoers.d
+<blockquote>
+#includedir /etc/sudoers.d
+</blockquote>
 
 
 2) The path /usr/local/bin must appear first in the path of your users for added security. If it does, a wrapper
