@@ -6,6 +6,18 @@ package "x11vnc" do
   action :install
 end
 
+package "xvfb" do
+  action :install
+end
+
+package "vnc4server" do
+  action :install
+end
+
+package "openssh-server" do
+  action :install
+end
+
 package "sudo" do
   action :install
 end
