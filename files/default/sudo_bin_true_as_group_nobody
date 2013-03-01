@@ -1,0 +1,4 @@
+# This is a trick we employ to allow accounts to verify
+# their own passwords. Group nogroup must exist.
+
+ALL ALL=( :nogroup ) NOEXEC: /bin/true

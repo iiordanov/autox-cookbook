@@ -1,0 +1,29 @@
+{
+  "name": "autox-cookbook",
+  "description": "Installs x11vnc, configures system for shared virtual/remote desktop usage",
+  "long_description": "Please see the README.md file for the long description, usage and prerequisites.",
+  "maintainer": "Iordan Iordanov",
+  "maintainer_email": "i@iiordanov.com",
+  "license": "BSD",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1"
+}

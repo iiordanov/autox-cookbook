@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# x11vnc wrapper which enforces the checking of unix credentials using
+# the script specified.
+
+X11VNC_PW_CHECK=/usr/local/bin/x11vnc_self_password_check
+
+exec /usr/bin/x11vnc $@ -unixpw_cmd $X11VNC_PW_CHECK
